@@ -62,10 +62,12 @@ btns.forEach((btn) => {
       Xturn = false;
       btn.innerText = "X";
       btn.disabled = true;
+      btn.style.color="red";
     } else {
       Xturn = true;
       btn.innerText = "O";
       btn.disabled = true;
+       btn.style.color="blue";
     }
     count += 1;
     if (count == 9) {
