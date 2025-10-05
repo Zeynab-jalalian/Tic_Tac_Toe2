@@ -25,6 +25,9 @@ body {
  width: 100%;
  height: 100vh;
 }
+.hide{
+  display: none;
+}
 .container button {
   padding: 20px;
   margin: 20px;
